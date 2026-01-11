@@ -130,12 +130,12 @@ const CONFIG = {
     
   ],
   educations: [
-    // {
-    //   institution: 'Monash University',
-    //   degree: 'Master of Data Science',
-    //   from: '2026',
-    //   to: '2027(Expected)',
-    // },
+    {
+      institution: 'Monash University',
+      degree: 'Master of Data Science',
+      from: '2026',
+      to: '2027(Expected)',
+    },
     {
       institution: 'University of Mumbai',
       degree: 'Computer Science & Engineering(AI & ML)',
