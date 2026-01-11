@@ -230,7 +230,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   icon={<FaLinkedin />}
                   title="LinkedIn:"
                   value={social.linkedin}
-                  link={`https://www.linkedin.com/in/${social.linkedin}`}
+                  link={`https://www.linkedin.com/in/${social.linkedin}-9b414322b`}
                 />
               )}
               {social?.dribbble && (

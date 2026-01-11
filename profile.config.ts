@@ -48,7 +48,7 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Himanshu Vinchurkar', description: '', imageURL: '' },
   social: {
-    linkedin: 'himanshu-vinchurkar-9b414322b',
+    linkedin: 'himanshu-vinchurkar',
     x: '',
     mastodon: '',
     researchGate: '',
