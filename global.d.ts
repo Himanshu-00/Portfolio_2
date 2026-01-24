@@ -289,6 +289,7 @@ interface ThemeConfig {
    * Default theme
    */
   defaultTheme?: string;
+  darkMode?: string;
 
   /**
    * Hides the switch in the navbar

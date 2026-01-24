@@ -240,6 +240,14 @@ const GitProfile = ({ config }: { config: Config }) => {
                       googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                     />
                   )}
+                  {!sanitizedConfig.themeConfig.disableSwitch && (
+                    <ThemeChanger
+                      theme={theme}
+                      setTheme={setTheme}
+                      loading={loading}
+                      themeConfig={sanitizedConfig.themeConfig}
+                    />
+                  )}
                   {sanitizedConfig.publications.length !== 0 && (
                     <PublicationCard
                       loading={loading}

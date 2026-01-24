@@ -118,6 +118,7 @@ export interface SanitizedBlog {
 
 export interface SanitizedThemeConfig {
   defaultTheme: string;
+  darkMode: string;
   disableSwitch: boolean;
   respectPrefersColorScheme: boolean;
   displayAvatarRing: boolean;

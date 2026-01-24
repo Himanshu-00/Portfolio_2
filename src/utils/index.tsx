@@ -120,6 +120,7 @@ export const getSanitizedConfig = (
       },
       themeConfig: {
         defaultTheme: config?.themeConfig?.defaultTheme || DEFAULT_THEMES[0],
+        darkMode: config?.themeConfig?.darkMode || DEFAULT_THEMES[0],
         disableSwitch: config?.themeConfig?.disableSwitch || false,
         respectPrefersColorScheme:
           config?.themeConfig?.respectPrefersColorScheme || false,
